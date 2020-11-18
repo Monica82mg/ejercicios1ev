@@ -16,7 +16,7 @@ public class Conversor {
 		linea = in.readLine();
 		euros = Float.parseFloat(linea) ;
 		dolares = euros * 1.17f;
-		System.out.printf("%-15.2f", dolares);
+		System.out.printf("%-15.2f", dolares) ;
 		
 	}
 
